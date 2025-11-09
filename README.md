@@ -1,3 +1,5 @@
+## Overview
+This project is an End-to-End (E2E) test automation suite built using Cypress with Javascript.
 
 
 ### Test framework
@@ -27,7 +29,14 @@
    `cypress/support/step_definitions`.
 4. Step definition files naming convention: small letters separated by `_` with
    a .js extension. File names must end with `-steps`
-5. No element locators are defined in step definition files
-6. Define the page elements (sometimes may also include actions) in
+5. Define the page elements (sometimes may also include actions) in
    `cypress/support/pages` to avoid replicating element locators.
-7. Define all elements in this central place of page objects
+
+## Run with headless
+
+```shell
+npx cypress open
+```
+
+Author
+Hnin Wai Mon
