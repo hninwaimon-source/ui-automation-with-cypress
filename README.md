@@ -32,7 +32,7 @@ This project is an End-to-End (E2E) test automation suite built using Cypress wi
 5. Define the page elements (sometimes may also include actions) in
    `cypress/support/pages` to avoid replicating element locators.
 
-## Run with headless
+## Run the Test
 
 ```shell
 npx cypress open
